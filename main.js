@@ -201,6 +201,8 @@ while (stop == false)
     process.exit();
   }
 
+  // Use
+
   if (command == "use") 
   {
     if (args[0] == "ktools/flood")
@@ -243,6 +245,8 @@ while (stop == false)
     }
   }
 
+  // Show
+
   if (command == "show")
   {
     if (args == "options") 
@@ -280,6 +284,8 @@ while (stop == false)
       error("Error: Unknown command '" + input + "'")
     }
   }
+
+  // Set
 
   if (command == "set") 
   {
@@ -395,6 +401,8 @@ while (stop == false)
         error("Error: Can't set option when not in a module.")
       }
   }
+
+  // Run
 
   if (command == "run")
   {
