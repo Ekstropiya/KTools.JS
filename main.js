@@ -446,19 +446,19 @@ while (stop == false)
   }
 
   if (
-    command != "use"          &&
-    command != "run"          &&
-    command != "exit"         &&
-    command != "back"         &&
-    command != "set"          &&
-    command != "show"         &&
-    command != "help"         &&
-    commandSplit[0] != "sqrt" &&
-    isNaN(command)
-    ) 
-    {
-      error("Error: Unknown command '" + input + "'")
-    }
+     command != "use"          &&
+     command != "run"          &&
+     command != "exit"         &&
+     command != "back"         &&
+     command != "set"          &&
+     command != "show"         &&
+     command != "help"         &&
+     commandSplit[0] != "sqrt" &&
+     isNaN(command)
+     ) 
+     {
+       error("Error: Unknown command '" + input + "'")
+     }
 
   // Get the users input
   var input = inputer.getConsoleInput(inputPrefix, false)
