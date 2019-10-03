@@ -197,6 +197,7 @@ while (stop == false)
 
   if (command == "exit") 
   {
+    sleep.msleep(2000)
     process.exit();
   }
 
