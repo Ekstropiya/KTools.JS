@@ -244,6 +244,11 @@ while (stop == false)
     }
   }
 
+  if (command == "clear")
+  {
+    console.clear()
+  }
+
   // Show
 
   if (command == "show")
@@ -461,6 +466,7 @@ while (stop == false)
      command != "set"          &&
      command != "show"         &&
      command != "help"         &&
+     command != "clear"        &&
      commandSplit[0] != "sqrt" &&
      isNaN(command)
      ) 
