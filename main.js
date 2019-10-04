@@ -31,7 +31,6 @@ for (i = 0; i < cliSpinners.dots.frames.length * 5; i++)
 //var loadArr = ["Loading ktools.js.", "lOading ktools.js..", "loAding ktools.js...", "loaDing ktools.js.", "loadIng ktools.js..", "loadiNg ktools.js...", "loadinG ktools.js...", "loading Ktools.js.", "loading kTools.js..", "loading ktOols.js...", "loading ktoOls.js..", "loading ktooLs.js...", "loading ktoolS.js..", "loading ktools.Js..", "loading ktools.jS..."/*, "loading exploit.jS.", "loading exploit.js.."*/]
 var ree = 0;
 
-
 /*for (i = 0; i < loadArr.length * 5; i++) 
 {
   console.clear()
@@ -451,6 +450,7 @@ while (stop == false)
 
       }
     }
+    // End ktools/play
   }
 
   if (
