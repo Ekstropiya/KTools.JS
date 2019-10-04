@@ -9,5 +9,4 @@ A command line interface to use interface with Kahoot in a variety of ways.
  `- show options` Shows the current modules option  
  `- set         ` Set a modules option to something  
  `- run         ` Run the current module  
- `- clear       ` Clear the terminal  
- `prev()` slide to prev
+ `clear       `    Clear the terminal  
